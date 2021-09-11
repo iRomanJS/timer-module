@@ -1,5 +1,4 @@
 function timer(id, deadline) {
-    //Timer
 
     function getTimeRemaining(endtime) {
         const t = Date.parse(endtime) - Date.parse(new Date()),
@@ -51,5 +50,3 @@ function timer(id, deadline) {
 
     setClock(id, deadline);
 }
-
-export default timer;
